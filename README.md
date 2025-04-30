@@ -1,0 +1,2 @@
+# NQueenVisualizer
+NQueen
