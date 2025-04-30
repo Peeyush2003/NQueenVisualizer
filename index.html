@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>N-Queen Visualizer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="controls">
+    <label>Grid size: <input type="number" id="gridSize" value="8" min="4" max="20"/></label>
+    <label>Speed: <input type="range" id="speedSlider" min="50" max="1000" value="300"/></label>
+    <button onclick="startVisualization()">Visualize</button>
+    <button onclick="clearBoard()">Clear Board</button>
+  </div>
+  <div id="board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
